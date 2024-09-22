@@ -27,3 +27,11 @@ jobs:
           node-version: 17.x
           #tmpcomment      cache: 'yarn'
 
+
+      - name: buildanddeploy to cfpagesaio
+        run: |
+          
+          sudo npm install toml aws-sdk
+          sudo npm install -g wrangler
+          sh .github/serverless2/generate_vars_toml.sh && sudo node .github/serverless2/init_app_db.js && sudo node .github/serverless2/init_project.js
+          sudo node .github/serverless2/sync_project_config.js && NODE_ENV=production sudo node .github/serverless2/direct_upload.js
