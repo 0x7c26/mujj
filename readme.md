@@ -3,11 +3,13 @@
 Cloudflare会根据您所在地连接最近的服务器提供本服务；如果您在接近中国香港的地区，那么本服务将会由在中国香港地区的Cloudflare数据中心提供。
 
 # 图床服务
-### https://i.cdchien.icu/
+### 主要地址: https://img.0x7c26.love/
+### 备用地址: https://i.cdchien.icu
 ### 密码会由本服务管理员发放论坛邀请码时顺便附赠，图床规则和论坛规则相同
 
 # 论坛服务
-### https://cdchien.icu
+### 主要地址: https://0x7c26.love
+### 备用地址: https://cdchien.icu
 ### 邀请码获取方式
 #### 邮箱: nexttrellix@foxmail.com
 ##### 我看到后会回复, 记得看邮箱
